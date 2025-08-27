@@ -1,0 +1,5 @@
+services:
+  calculator:
+    build: ./calculator
+    ports:
+      - "8503:8500"
